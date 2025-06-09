@@ -1,0 +1,13 @@
+@font-face {
+   font-family: "Hafs";
+   src: url("/fonts/Hafs.woff2") format("woff2");
+   font-weight: normal;
+   font-style: normal;
+ }
+ 
+ @font-face {
+   font-family: "KSAR";
+   src: url("/fonts/vertopal.com_KSARegular.woff") format("woff");
+   font-weight: bold;
+   font-style: normal;
+ }
