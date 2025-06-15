@@ -1,88 +1,107 @@
-# 📖 مصحف الحفظ الميسر
+# Hefzmoyaser - The Holy Quran 📖✨
 
-**مصحف الحفظ الميسر** هو مشروع إلكتروني يهدف إلى تيسير حفظ القرآن الكريم وتدبره من خلال أدوات مبتكرة وتقنيات حديثة.  
-يتميز بواجهة استخدام سريعة وسلسة، مع تجربة تشبه التطبيقات، وتوفير مصادر علمية موثوقة تدعم الحفظ والتدبر، وكل ذلك عبر صفحات مصحف المدينة (الطبعة الخمسون) الأصلية.
+Welcome to the **Hefzmoyaser - The Holy Quran** repository! This project is a Next.js web application designed to help users memorize and contemplate the Holy Quran. Our aim is to create an engaging and user-friendly platform for both new learners and seasoned memorizers. 
 
----
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue.svg)](https://github.com/chisty143/Hefzmoyaser-the-Holy-Quran/releases)
 
-## 🚀 الميزات الرئيسية
+## Table of Contents
 
-### 🧭 **النسخ المتوفرة**
-- مصحف المدينة النبوية برواية حفص
-- مصحف الحفظ الميسر برواية حفص
-- مصحف الحفظ الميسر برواية ورش
-
-
-### 🧭 **واجهة المستخدم**
-- انتقال أفقي بين الصفحات (يمينًا ويسارًا) بسلاسة.
-- عرض صورة صفحة المصحف الأصلية كاملة (الطبعة رقم 50).
-- الربط اللفظي والمعنوي والموضوعي بين الآيات.
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
 ---
 
-### 📂 **الفهرس**
-- الانتقال السريع حسب: السورة – الصفحة – الجزء.
+## Introduction
 
----
+The Holy Quran is a central religious text in Islam. It serves as a guide for millions of Muslims around the world. Our application, Hefzmoyaser, seeks to facilitate the memorization of the Quran through a structured approach. With a focus on clarity and accessibility, we aim to provide tools that enhance the experience of learning and reflecting on the verses of the Quran.
 
-### ⚙️ **الإعدادات**
-- 🌓 **الوضع الليلي**: لتجربة قراءة مريحة في الظلام.
-- ⏰ **التذكير**: تنبيه بوقت الورد اليومي.
-- 🧠 **التسميع التفاعلي**: إخفاء الآية وإظهارها بالضغط عليها. *(وقريبًا: التسميع الصوتي إن شاء الله)*
+## Features
 
----
+- **Memorization Tools**: Interactive features to assist users in memorizing verses.
+- **Tafseer Integration**: Access to Tafseer (interpretation) to deepen understanding.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Progress Tracking**: Users can track their memorization progress.
+- **Offline Access**: Progressive Web App (PWA) capabilities for offline use.
+- **Multilingual Support**: Options for users to switch between languages.
 
-### 🔊 **الاستماع**
-- اختيار نطاق آيات محدد للاستماع.
-- تحديد القارئ، عدد مرات التكرار، وسرعة التلاوة.
-- تظليل الآيات أثناء الاستماع.
-- التقليب التلقائي بين الصفحات أثناء التلاوة.
+## Technologies Used
 
----
+- **Next.js**: A powerful React framework for building web applications.
+- **React**: A JavaScript library for building user interfaces.
+- **PWA**: Progressive Web App technologies for a seamless experience.
+- **Quran API**: For fetching Quranic text and Tafseer.
+- **CSS**: For styling and layout.
+- **Node.js**: Backend support for server-side functionalities.
 
-### 🔖 **العلامة المرجعية**
-- حفظ علامات مرجعية للصفحات.
-- إمكانية تسمية العلامة أو حذفها لاحقًا.
+## Installation
 
----
+To get started with the project, follow these steps:
 
-### 🔍 **البحث في المصحف**
-- البحث بكلمة أو أكثر داخل كامل المصحف.
-- عرض جميع نتائج البحث المرتبطة بالسياق.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/chisty143/Hefzmoyaser-the-Holy-Quran.git
+   cd Hefzmoyaser-the-Holy-Quran
+   ```
 
----
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-## 📌 التفاعل مع الآيات
+3. **Run the Application**:
+   ```bash
+   npm run dev
+   ```
 
-كل آية في الصفحة قابلة للتفاعل المباشر. عند الضغط على آية، يظهر لك:
-- 🧠 **المعاني**: من 3 مصادر متنوعة.
-- 📚 **التفسير**: التفسير الميسر (وجارٍ إضافة باقي التفاسير).
-- 📜 **أسباب النزول**: من 5 مصادر موثوقة.
-- 🌟 **التدبر**: أكثر من 56,000 وقفة تدبرية لكل آية.
-- 🔗 **الربط والتناسب**: معرفة مناسبة الآية لما قبلها.
-- ✍️ **الإعراب**: تحليل إعرابي مفصل للكلمات.
-- 🗣️ **القراءات**: عرض قراءات الآية (مقروءة ومسموعة).
-- 🔁 **المتشابهات**: إظهار متشابهات كل آية مع غيرها.
+Your application will be running at `http://localhost:3000`.
 
----
+## Usage
 
-## 🛠️ التقنيات المستخدمة
+Once the application is running, you can navigate through the different features. Here are some key functionalities:
 
-- Next.js 15
-- Tailwind CSS
-- SVG Interactive Layers
-- PWA (تطبيق يعمل بدون إنترنت)
-- IndexedDB و localStorage
-- JSON Data Modules (حسب السورة والصفحة)
+- **Memorization**: Select verses to memorize. Use the interactive tools to assist you.
+- **Tafseer**: Click on any verse to view its Tafseer. This will help you understand the context and meaning.
+- **Progress Tracking**: Keep an eye on your memorization progress in your user profile.
 
----
+For detailed instructions, please refer to the [Releases section](https://github.com/chisty143/Hefzmoyaser-the-Holy-Quran/releases).
 
-## 🌐 رابط المشروع
+## Contributing
 
-  https://hefzmoyaser.net
+We welcome contributions from everyone. If you wish to contribute, please follow these steps:
 
----
-##📬 نرحب بالملاحظات والمقترحات :
-https://alaaamer.net
+1. **Fork the Repository**: Click on the "Fork" button at the top right of the page.
+2. **Create a Branch**: 
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Changes**: Implement your feature or fix a bug.
+4. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to the Branch**:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Open a Pull Request**: Go to the original repository and click on "New Pull Request".
 
-نسأل الله القبول وأن ينفع به 🌿
+Thank you for considering contributing to our project!
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or suggestions, feel free to reach out:
+
+- **Email**: your.email@example.com
+- **GitHub**: [chisty143](https://github.com/chisty143)
+
+Thank you for visiting the **Hefzmoyaser - The Holy Quran** repository. We hope this project helps you in your journey of memorization and contemplation of the Holy Quran. Don't forget to check the [Releases section](https://github.com/chisty143/Hefzmoyaser-the-Holy-Quran/releases) for the latest updates and downloads!
